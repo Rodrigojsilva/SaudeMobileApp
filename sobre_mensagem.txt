@@ -1,0 +1,82 @@
+<h3> Sobre </h3>
+    <p>
+      <b>Nossa Visão</b>
+      <br/>
+
+Saúde e tecnologia fazem parte da arte de cuidar para viver
+
+e tudo o que fazemos e planejamos.<br/>
+
+Temos orgulho de compartilhar com você nosso  aplicativo para 
+
+potencializar os negócios entre cliente e os profissionais de saúde.<br/>
+
+
+Inovação e tecnologia é a nossa base.
+<br/>
+
+Melhorias, atualizações e adaptações 
+
+constantes são nosso foco.<br/>
+
+
+Contamos com uma equipe multidisciplinar de profissionais médicos 
+
+especializados , analistas de sistemas e designers com experiência 
+
+em tecnologia.<br/>
+
+Conhecemos as normas do setor de saúde. 
+
+Nosso app esta preparado para se adequar as mudanças futuras 
+
+entre a relação cliente e profissional.<br/>
+
+Desenvolvemos, antes de tudo, para pessoas. 
+
+Por isso temos preocupação com entrega de qualidade e o 
+
+sucesso do cliente.<br/>
+
+Milhões de vidas em todo Brasil utilizam aplicativos e serviços, 
+
+realizando centenas de operações de autoatendimento a cada minuto.<br/>
+
+ Nosso objetivo é melhorar o atendimento e reduzir os custos para nossos clientes 
+
+e, principalmente, aumentar a satisfação do beneficiário com seu 
+
+plano de saúde. <br/>
+Somos parceiros dedicados na construção de soluções com qualidade, oferecendo uma experiência única para cada cliente.
+    </p>
+	
+	***********************************************************************************
+	
+	<form class="form-horizontal" action="<?php echo $_SERVER['PHP_SELF'] ?>" method="POST" enctype="multipart/form-data" name="agendamentoConsulta">
+      <div class="form-group">
+        <label for="name">Nome do Cliente:</label>
+        <input type="text" class="form-control" id="nome" placeholder="Digite seu Nome" name="nomecliente">
+      </div>
+      <div class="form-group">
+        <label for="email">Email: </label>
+        <input type="text" class="form-control" id="email" placeholder="Informe seu Email" name="Email">
+      </div>
+      <div class="form-group">
+        <label for="telefone">Telefone:</label>
+        <input type="text" class="form-control" id="telefone" placeholder="Seu contato" name="Telefone">
+      </div>
+      
+      <div class="form-group">
+          <label for="assunto">Assunto:</label>
+          <input type="text" class="form-control" id="Assunto" placeholder="Assunto" name="assunto">
+      </div>
+      <div class="form-group">
+        <label for="mensagem">Mensagem:</label>
+        <input type="text" class="form-control" id="mensagem" placeholder="Digite sua Mensagem" name="mensagem">
+      </div>
+    
+      <button class="btn btn-info">Enviar</button>
+    </form>
+	
+	
+	
